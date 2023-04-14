@@ -1,0 +1,13 @@
+﻿{
+  "Id": "Nu-skpvwjEWfNRo_HA4m4w",
+  "Reference": "42WFriPenEyqLBuTWEvMoA/Nu-skpvwjEWfNRo_HA4m4w",
+  "ParentRef": "42WFriPenEyqLBuTWEvMoA/B6WRaBQbkEy6wLH89XBK-g",
+  "Name": "Phone Number",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2023-03-15T18:05:35.7631354Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-03-15T18:05:35.7631354Z"
+}

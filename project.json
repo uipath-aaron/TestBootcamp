@@ -1,0 +1,98 @@
+{
+  "name": "UiBank_Testing_Win",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Database.Activities": "[1.7.1]",
+    "UiPath.System.Activities": "[21.10.6]",
+    "UiPath.Testing.Activities": "[22.10.3]",
+    "UiPath.UIAutomation.Activities": "[22.10.4]"
+  },
+  "webServices": [
+    {
+      "namespace": "uibankapi",
+      "serviceDocument": "Services\\uibankapi.json",
+      "webDocumentUri": "https://uibank-api.uipath.com/explorer/swagger.json",
+      "uniqueReference": "xnSgS891Zf9n8YYWpfd/YYk7JSIIGL3EceiiKnOHPOs="
+    }
+  ],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.4.0.0",
+  "projectVersion": "1.0.130914056",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": [
+        "UI-API_Recorder.xaml"
+      ]
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "3521a6c3-4bd0-4834-8780-d18dee0bbd04",
+        "dataVariationFilePath": ".variations\\Loan Quotes_Loan Quotes.json",
+        "testCaseType": "TestCase",
+        "fileName": "Medium Volume Data-driven.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "435454ed-1d00-4d8c-bac7-ab946eef9223",
+        "testCaseType": "TestCase",
+        "fileName": "High Volume Loan.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "3773b3d0-c217-4e15-9dd8-c45eba9535a6",
+        "testCaseType": "TestCase",
+        "fileName": "Medium Volume Loan - Fail.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "2e266dfe-ab34-477d-832f-59f5cb537c10",
+        "testCaseType": "TestCase",
+        "fileName": "Medium Volume Loan - Pass.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "227006a7-20ca-4528-b0f2-4a7b2b68d968",
+        "testCaseType": "TestCase",
+        "fileName": "Loan Application - Fail.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "5ee71be1-8a08-480f-bcc8-b833d55f9349",
+        "testCaseType": "TestCase",
+        "fileName": "Loan Application - Pass.xaml"
+      }
+    ],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
